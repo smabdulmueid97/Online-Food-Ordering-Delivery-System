@@ -1,0 +1,240 @@
+{
+  "source": "sshb.sql (database `sshb`, dumped 2024-06-10) from https://github.com/smabdulmueid97/Online-Food-Ordering-Delivery-System — tables `products` + `catagory`. Prices are in Bangladeshi Taka (Tk.), exactly as in the PHP pages (single_product.php / all_product.php show 'Tk.'). Names trimmed of leading/trailing spaces only; descriptions verbatim from SQL, including the garbled test description on id 30.",
+  "currency": "BDT",
+  "currency_symbol": "Tk.",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Breakfast",
+      "description": "Morning food before work",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "Afternoon Food",
+      "description": "afternoon snacks and more",
+      "status": 1
+    },
+    {
+      "id": 9,
+      "name": "Evening snack",
+      "description": "Evening snack",
+      "status": 1
+    },
+    {
+      "id": 10,
+      "name": "Dinner",
+      "description": "Dinner",
+      "status": 1
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "line1": "Welcome To SSHB Online",
+      "line2": "Fresh Breakfast One Click Away",
+      "line3": "We Can Deliver In 30 min",
+      "btn_left": "Menu",
+      "btn_right": "Go Up",
+      "image": "s1.jpg"
+    },
+    {
+      "id": 2,
+      "line1": "Welcome To SSHB Online",
+      "line2": "Fresh Breakfast One Click Away",
+      "line3": "We Can Deliver In 30 min",
+      "btn_left": "Menu",
+      "btn_right": "Go Up",
+      "image": "s2.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Rice and Chicken Curry",
+      "price_tk": 250,
+      "description": "A classic combination where rice is served with a flavorful chicken curry, typically made with a mix of spices, tomatoes, and onions.",
+      "category_id": 1,
+      "image": "p1.jpg",
+      "stock": 10,
+      "status": 1,
+      "category": "Breakfast"
+    },
+    {
+      "id": 2,
+      "name": "Khichuri",
+      "price_tk": 250,
+      "description": "A popular South Asian dish made with rice and lentils. It can include vegetables and is often seasoned with spices like turmeric, cumin, and bay leaves.",
+      "category_id": 1,
+      "image": "p2.jpg",
+      "stock": 15,
+      "status": 1,
+      "category": "Breakfast"
+    },
+    {
+      "id": 3,
+      "name": "Alu Bhorta",
+      "price_tk": 200,
+      "description": "A Bangladeshi mashed potato dish flavored with mustard oil, green chilies, and onions.",
+      "category_id": 1,
+      "image": "p3.jpg",
+      "stock": 10,
+      "status": 1,
+      "category": "Breakfast"
+    },
+    {
+      "id": 4,
+      "name": "Roti with Beef Curry",
+      "price_tk": 300,
+      "description": "Roti is a type of flatbread made from whole wheat flour, and it is often served with a spicy and rich beef curry.",
+      "category_id": 2,
+      "image": "p4.jpg",
+      "stock": 10,
+      "status": 1,
+      "category": "Afternoon Food"
+    },
+    {
+      "id": 5,
+      "name": "Dal Bhat",
+      "price_tk": 100,
+      "description": "A traditional South Asian meal consisting of lentil soup (dal) and rice (bhat).",
+      "category_id": 2,
+      "image": "p5.jpg",
+      "stock": 8,
+      "status": 1,
+      "category": "Afternoon Food"
+    },
+    {
+      "id": 6,
+      "name": "Luchi with Aloo Dom",
+      "price_tk": 100,
+      "description": "Luchi is a deep-fried flatbread made from refined flour, often served with Aloo Dom, a spicy potato curry.",
+      "category_id": 2,
+      "image": "p6.jpg",
+      "stock": 12,
+      "status": 1,
+      "category": "Afternoon Food"
+    },
+    {
+      "id": 18,
+      "name": "jilapi",
+      "price_tk": 30,
+      "description": "A sweet, deep-fried dessert made from a batter of wheat flour, which is then soaked in sugar syrup. Also known as jalebi.",
+      "category_id": 9,
+      "image": "p11.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Evening snack"
+    },
+    {
+      "id": 19,
+      "name": "Fish fry",
+      "price_tk": 140,
+      "description": "Fish fillets or whole fish coated in a spiced batter or breading and deep-fried until crispy.",
+      "category_id": 10,
+      "image": "p7.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Dinner"
+    },
+    {
+      "id": 21,
+      "name": "beef",
+      "price_tk": 130,
+      "description": "Grilled or barbecued beef, typically marinated in spices and cooked over an open flame.",
+      "category_id": 10,
+      "image": "p8.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Dinner"
+    },
+    {
+      "id": 22,
+      "name": "BBQ",
+      "price_tk": 200,
+      "description": "BBQ - the sweet and tangy flavors of a perfectly grilled or smoked meat, infused with the rich aromas of spices and herbs. Whether it's a tender rack of ribs, a juicy burger, or a slow-cooked brisket, BBQ is a culinary delight that's sure to tantalize the taste buds.\n\nThe sweet and tangy flavors of the BBQ sauce mingle with the rich flavors of the meat, creating a harmonious balance of flavors that's both familiar and comforting. The aroma of smoked meat wafts through the air, teasing the senses and leaving you craving more.",
+      "category_id": 10,
+      "image": "p9.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Dinner"
+    },
+    {
+      "id": 23,
+      "name": "Rice & Fish",
+      "price_tk": 190,
+      "description": "A staple meal in many parts of the world, particularly in South Asia, where rice is paired with a variety of fish preparations.",
+      "category_id": 9,
+      "image": "p10.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Evening snack"
+    },
+    {
+      "id": 24,
+      "name": "Somosa",
+      "price_tk": 20,
+      "description": "A fried or baked pastry with a savory filling, such as spiced potatoes, peas, and sometimes meat.",
+      "category_id": 1,
+      "image": "p12.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Breakfast"
+    },
+    {
+      "id": 25,
+      "name": "Singara",
+      "price_tk": 20,
+      "description": "Similar to samosas, singaras are filled pastries, often with a spiced potato and pea filling, popular in Bengal.",
+      "category_id": 2,
+      "image": "p13.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Afternoon Food"
+    },
+    {
+      "id": 26,
+      "name": "Beef Somosa",
+      "price_tk": 30,
+      "description": "A variation of the samosa filled with spiced ground beef.",
+      "category_id": 2,
+      "image": "p14.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Afternoon Food"
+    },
+    {
+      "id": 27,
+      "name": "Puri",
+      "price_tk": 20,
+      "description": "A deep-fried bread made from unleavened wheat flour dough, often served with a variety of side dishes.",
+      "category_id": 10,
+      "image": "p15.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Dinner"
+    },
+    {
+      "id": 28,
+      "name": "Regular Cake",
+      "price_tk": 90,
+      "description": "Can come in various flavors and styles, such as sponge cakes, layer cakes, etc.",
+      "category_id": 1,
+      "image": "p16.jpg",
+      "stock": 30,
+      "status": 1,
+      "category": "Breakfast"
+    },
+    {
+      "id": 30,
+      "name": "Ice cream vanina",
+      "price_tk": 2000,
+      "description": "udfgkasjlfsjdf w4uryweuirhkwjrhtkwrht89248274908374824\r\n\r\nefheoifhnaf\r\nsdfsdf\r\nsfsdfd\r\nf",
+      "category_id": 2,
+      "image": "140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg",
+      "stock": 20,
+      "status": 1,
+      "category": "Afternoon Food"
+    }
+  ]
+}
